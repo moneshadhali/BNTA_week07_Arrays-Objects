@@ -60,16 +60,16 @@ parrot = {
   name:"Lucky",
   age: 12,
   breed: "African Grey",
-  colours: []
+  colours: ["grey"]
 }
 
-console.log(parrot);
+// console.log(parrot);
 
 /**
  * Q6. Ella's favourite food is dandelion, add this information to her object
  */
-
-// console.log(tortoise);
+tortoise.favouriteFood = "dandelion";
+console.log(tortoise);
 
 /**
  * Q7. What's the combined age of all the pets?
