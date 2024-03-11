@@ -58,7 +58,7 @@ stations[1] = "Berwick-upon-Tweed";
  */
 const indexToRemove = stations.indexOf("Leeds");
 stations.splice(indexToRemove,1);
-console.log(stations);
+// console.log(stations);
 
 
 
@@ -66,8 +66,9 @@ console.log(stations);
  * Q7.
  * We forgot about Darlington! Add it to the route between Newcastle and York.
  */
-
-// console.log(stations);
+const indexRoute = stations.indexOf("York");
+stations.splice(indexRoute, 0, "Darlington");
+console.log(stations);
 
 
 
