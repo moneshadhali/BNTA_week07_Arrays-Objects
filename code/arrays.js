@@ -68,7 +68,7 @@ stations.splice(indexToRemove,1);
  */
 const indexRoute = stations.indexOf("York");
 stations.splice(indexRoute, 0, "Darlington");
-console.log(stations);
+// console.log(stations);
 
 
 
@@ -77,9 +77,9 @@ console.log(stations);
  * Is Durham one of the stops?
  */
 
-stoppingAtDurham = null;
+stoppingAtDurham = stations.includes("Durham");;
 
-// console.log(stoppingAtDurham);
+console.log(stoppingAtDurham);
 
 
 /**
